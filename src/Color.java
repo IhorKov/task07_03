@@ -6,7 +6,7 @@ public enum Color {
     BLACK("#000000"),
     WHITE("#FFFFFF");
 
-    private String str;
+    private final String str;
 
     Color(String hex) {
         this.str = hex;
